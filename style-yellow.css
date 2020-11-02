@@ -1,0 +1,135 @@
+:root {
+    --primary-color: hsl(197, 73%, 63%);
+    --border-radius: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+svg {
+    height: 50px;
+    width: auto;
+}
+
+
+/* Section with text, video, logo, menu icon and form */
+.hero {
+    /* Add position */
+}
+
+
+/* Dark overlay with text */
+.overlay {
+    color: white;
+    /* Add flexbox */
+}
+
+.overlay h1,
+.overlay .lead {
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.overlay p {
+    font-size: 1.2;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+/* Form */
+.overlay form {
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    /* Add background */
+}
+
+
+/* Donation amount input*/
+.overlay form fieldset {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    /* Add position */
+}
+
+.overlay form .dollar {
+    color: gray;
+    /* Add position*/
+}
+
+.overlay form #amount {
+
+}
+
+.overlay form .month {
+    color: gray;
+    /* Add position */
+}
+
+
+/* Background video */
+.video {
+    object-fit: cover;
+    /* Add position */
+}
+
+
+/* Company logo and name */
+.logo {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    /* Add position */
+}
+
+.logo svg {
+}
+
+
+/* Checkbox and hamburger icon */
+#toggle {
+    /* Add position */
+}
+
+.hamburger-icon {
+    /* Add position */
+}
+
+.hamburger-icon svg {
+}
+
+
+/* Button styling */
+.button {
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius);
+    text-transform: uppercase;
+}
+
+.button--primary {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+
+/* Navigation */
+nav {
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    text-align: center;
+    /* Add flexbox */
+}
+
+nav ul {
+
+}
+
+nav a {
+
+}
+
+
+
