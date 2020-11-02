@@ -119,6 +119,7 @@ top: 25vh;
     height: 80vh;
 flex-direction: column;
 justify-content: flex-end;
+font-size: 40px;
   
 }
 .ul{
@@ -127,5 +128,5 @@ justify-content: flex-end;
     margin-bottom: 35px;
 }
 .li{
-    margin: 20px;
+    margin: 45px;
 }
